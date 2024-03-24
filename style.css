@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    margin-left: 40px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+/*header start*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+nav ul{
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li{
+    margin: 0 20px;
+}
+a{
+    color: white;
+    text-decoration: none; /*ازالة الخط اللي تحت كل لينك*/
+}
+nav ul li a:hover{
+    color: rgb(217, 228, 61); /*عند الوقوف على كل لينك من الناف بار يتحول للون هذا*/
+}
+
+/*header end*/
+
+
+/*section1 start*/
+.section1{
+    height: 1000px;
+    background-image: url(Background.png);
+    background-size: cover;
+}
+.div1 {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+p.p1{
+    color: rgb(217, 228, 61);
+    font-size: 36px;
+}
+p.planing{
+    color:white ;
+    font-size: 70px;
+}
+p.p2 {
+    
+    color: white;
+    margin-top: 10px; 
+}
+
+input[type="button"] {
+    background-color: rgb(227, 243, 9);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: transparent;
+    color: black;
+}
+
+
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+figcaption{
+    color: white;
+}
+.image-container {
+    display: flex;
+}
+
+.image-figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 80px; /* حجم الصورة الأصلي */
+    border-radius: 50%;
+}
+
+.image-figure:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+}
+
+
+.text-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.text-content img{
+    height: 300px;
+    border-radius: 10px;
+}
+.text-content div {
+    width: 400px;
+    padding-left: 100px;
+    margin: 20px;
+
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px;
+    width: 100px; /* تحديد عرض الزر */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s; /* إضافة تأثير الشفافية */
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
+    opacity: 0.8; /* شفافية عند التحويل (hover) */
+    border: solid 1;
+}
+.text-content img {
+    width: 100%;
+    max-width: 200px; 
+}
+.text-content div p{
+    color: white;
+}
+
+
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 40px;
+
+}
+
+.section3 .image1{
+    width: 350px;
+    height: 500px;
+    background-image: url(t1.jpg);
+    opacity: 0.7;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    
+}
+.section3 .image1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 5;
+}
+.section3 .image2{
+    width: 350px;
+    height: 500px;
+    background-image: url(t2.jpg);
+    opacity: 0.7;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.section3 .image2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 5;
+}
+.section3 .image3{
+    width: 350px;
+    height: 500px;
+    background-image: url(t3.jpg) ;
+    opacity: 0.7;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.section3 .image3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 5;
+}
+.section3 p{
+    color: white;  
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    margin: 20px;
+}
+
+/*styles of footer*/
+footer{
+
+    color: white;
+    background-color: rgb(27, 26, 26);
+    text-align: center;
+    height: 20px;
+}
+
+
+
+/*
+جزء الميديا كويري مش ذاكرته كويس 
+وناسية بيتعمل ازاي 
+ومعنديش وقت ولا طاقة اني ابحث عشان ضغط العملي والفاينال 
+اتمنى ماانقصش فيه كتير :*
+وكمان انا عارفة ان فيه غلطات كتيرة 
+بس اللي قدرت عليه عملته ف وقت قليل :-
+Thank you (:
+*/
